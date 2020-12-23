@@ -1,0 +1,28 @@
+baseURL = "http://alanliddell.com/"
+languageCode = "en-us"
+title = "Alan Liddell"
+theme = "hugo-clarity"
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "posts"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "about"
+
+[params]
+  author = "Alan"
+  Name = "Alan Liddell"
+  HeaderUsername = "alan"
+  HeaderHostname = "just-testing"
+  About = "I am a robotics neophyte, Linux enthusiast, erstwhile mathematician, and family man. I enjoy running, classical music, science fiction, and learning new things. Professionally, I build software for neuroscience research. This is my personal site, where I'll post project updates, blog entries, and code journals."
+  ProfilePicture = "https://avatars1.githubusercontent.com/u/844464?s=460&u=708fec7415e597817b2233c8938ed344ab6a2981&v=4"
+  GnuPGFingerprint = "3309F2A504F9B1E31CECA26F2AF79E8CEB07515D"
+  GithubID = "aliddell"
+  GitlabID = "aliddell"
+  LinkedInID = "alan-liddell"
+  TelegramID = "aliddell"
+  Email = "epiphyte2@protonmail.com"
