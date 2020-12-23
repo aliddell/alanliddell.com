@@ -1,16 +1,9 @@
-# Show or hide by uncommenting and vice versa
 - item: "github"
   url: "https://github.com/aliddell"
 - item: "stackoverflow"
   url: "https://stackoverflow.com/users/993881/alan-liddell"
 - item: "linkedin"
-  url: "https://www.linkedin.com/in/alan-liddellW"
-# - item: "youtube"
-#  url: "https://www.youtube.com/#"
-# - item: "facebook"
-#  url: "https://facebook.com/#"
-# - item: "instagram"
-# url: "https://instagram.com/#"
+  url: "https://www.linkedin.com/in/alan-liddell"
 - item: "rss"
   url: "index.xml"
   internal:  true
