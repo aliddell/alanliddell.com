@@ -20,21 +20,21 @@ I usually listen to classical music or jazz at home.
 If I really want to concentrate I might put on something more [ambient](https://www.youtube.com/playlist?list=OLAK5uy_me_VUSOM-q8R9f7EIWEYtDAujpMKq8QgI), even [doomy](https://www.youtube.com/watch?v=7aDpCIDYDc8).
 I also like band like Ladytron and Massive Attack, and the absolute classics like Pink Floyd, Jethro Tull, or Rush, and I dig [stoner metal](https://www.youtube.com/channel/UCknVpWR6m2Ijzkqo-aPXs_g) as a style.
 
-I don't get to play much anymore, but at one point I was the bassist for the 1st Marine Division band, and I still have many of instruments gathering dust.
+I don't get to play much anymore, but at one point I was the bassist for the 1st Marine Division band, and I still have many instruments, most of them stringed, gathering dust.
 
 I mostly like to read science fiction.
-Right now I'm working on [*The Hydrogen Sonata*](https://www.goodreads.com/book/show/13497991-the-hydrogen-sonata).
+Right now I'm working on [*The Hydrogen Sonata*](https://www.goodreads.com/book/show/13497991-the-hydrogen-sonata) on paper, [*On the Steel Breeze*](https://www.goodreads.com/book/show/15999018-on-the-steel-breeze) as an eBook, and [*The Algebraist*](https://www.goodreads.com/book/show/12009.The_Algebraist) as an audiobook.
 
 ## My goals
 
 My 2021 goals are:
 
-- Reach 25000 XP in Chinese on [Duolingo][duolingo].
-- Post 52 or more posts to the [blog](/posts).
+- Reach 25000 XP in Chinese on [Duolingo][duolingo] ([Beeminder goal](https://www.beeminder.com/aliddell/hanyu)).
+- Post 52 or more posts to the [blog](/posts) ([Beeminder goal](https://www.beeminder.com/aliddell/write-or-die)).
 - Use a Raspberry Pi to power an autonomous robot that can avoid obstacles and perform [SLAM][slam] in an indoor environment.
-    - In so doing, become conversant in the foundations, methods, and applications of [computer vision][computer-vision].
+    - In so doing, become conversant in the methods and applications of [computer vision][computer-vision].
     - Probably also develop a tool to consume and display sensor data coming in off the robot, if I can't find a FOSS alternative.
-        - Probably have to learn QT to accomplish this...
+        - Probably have to learn Qt to accomplish this...
 
 There are some stretch goals, but they're super secret.
 
