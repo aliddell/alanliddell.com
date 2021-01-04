@@ -11,6 +11,7 @@ PUBLIC="${REPO_BASE}/public"
 
 pushd ${REPO_BASE}
 
-hugo -D && rsync -auv --delete public/ alanliddell.com:public_html/
+rm -rf ${PUBLIC}
+hugo && rsync -auv --delete ${PUBLIC}/ alanliddell.com:public_html/
 
 popd
