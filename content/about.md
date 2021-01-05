@@ -64,7 +64,7 @@ There are some stretch goals, but I'm keeping them back.
 
 ### Colophon
 
-The sweet theme is (slightly) modified from Chip Zoller's [Hugo Clarity](clarity). Many thanks, Chip. 🙏
+The sweet theme is (slightly) modified from Chip Zoller's [Hugo Clarity][clarity]. Many thanks, Chip. 🙏
 
 Send me email:
 
