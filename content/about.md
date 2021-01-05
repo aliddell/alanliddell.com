@@ -1,9 +1,8 @@
 ---
 title: "About"
-date: 2020-12-30
+date: 2021-01-05
+showShare: false
 ---
-
-# About me
 
 My name is Alan and this is my personal site.
 I do [software][github] for a living.
@@ -51,8 +50,8 @@ I have a tendency to go too hard in my training and end up hurting myself, so in
 
 My 2021 goals are:
 
-- Run 735 miles ([Beeminder goal](https://www.beeminder.com/aliddell/auto-running)).
-(I'll update the [running page](/running) soon with just how I got that number.)
+- Run 730 miles ([Beeminder goal](https://www.beeminder.com/aliddell/auto-running)).
+(See the [running page](/running) for a log.)
 - Reach 25000 XP in Chinese on [Duolingo][duolingo] ([Beeminder goal](https://www.beeminder.com/aliddell/hanyu)).
 - Post 52 or more posts to the [blog](/posts) ([Beeminder goal](https://www.beeminder.com/aliddell/write-or-die)).
 - Use a Raspberry Pi to power an autonomous robot that can avoid obstacles and perform [SLAM][slam] in an indoor environment.

@@ -1,4 +1,9 @@
 [[main]]
+  name = "About"
+  url = "about/"
+  weight = -110
+
+[[main]]
   name = "Posts"
   url = "posts/"
   weight = -109
@@ -18,11 +23,11 @@
 #   url = "https://twitter.com/"
 
 [[main]]
-  name = "About"
-  url = "about/"
-  weight = -110
-
-[[main]]
   name = "Projects"
   url = "projects/"
   weight = -108
+
+[[main]]
+  name = "Running"
+  url = "running/"
+  weight = -107
