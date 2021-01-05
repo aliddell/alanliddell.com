@@ -17,8 +17,12 @@ $$e^{i \pi} + 1 = 0$$
 
 After grad school I never thought I'd miss TeX, but it's good to see that beautifully rendered math again.
 
-The only other really visible ($\pm \varepsilon$) thing I did was to add StackOverflow to the list of available social icons at the top right.
+I've also added StackOverflow to the list of available social icons at the top right.
 I made a PR of this which was accepted upstream late last year, so now you can feature your own StackOverflow profile on your website.
+
+Finally, I think social sharing icons are somewhat irritating, so I've replaced them all with a simple permalink.
+If you'd like to share posts or pages from this site that's great, but I'm not promoting a social media presence and I don't want to shove SHARE ME! icons in your face.
+Do unto others, right?
 
 ## Lessons learned so far
 
