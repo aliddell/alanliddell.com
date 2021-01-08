@@ -31,3 +31,8 @@
   name = "Running"
   url = "running/"
   weight = -107
+
+[[main]]
+  name = "Book Reviews"
+  url = "reviews/"
+  weight = -106
