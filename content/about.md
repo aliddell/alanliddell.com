@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2021-01-05
+date: 2021-01-08
 showShare: false
 ---
 
@@ -22,13 +22,15 @@ I usually listen to classical music or jazz at home.
 If I really want to concentrate I might put on something more [atmospheric](https://www.youtube.com/playlist?list=OLAK5uy_me_VUSOM-q8R9f7EIWEYtDAujpMKq8QgI), even [doomy](https://www.youtube.com/watch?v=7aDpCIDYDc8).
 I also like band like Ladytron and Massive Attack, and the absolute classics like Pink Floyd, Jethro Tull, or Rush, and I dig [stoner metal](https://www.youtube.com/channel/UCknVpWR6m2Ijzkqo-aPXs_g) as a style.
 
-I don't get to play much anymore, but at one point I was the bassist for the 1st Marine Division band, and I still have many instruments, most of them stringed, gathering dust.
+I don't get to play much anymore, but at one point I was the bassist for the 1st Marine Division band, and I still have many instruments, most of them stringed, now mostly gathering dust.
+When my kids get older, maybe I'll play some more.
 
 ### Reading
 
 I mostly like to read science fiction.
-Right now I'm reading [*The Hydrogen Sonata*][gr-hydrogen] on paper, [*On the Steel Breeze*][gr-steel] as an eBook, and [*The Algebraist*](https://www.goodreads.com/book/show/12009.The_Algebraist) as an audiobook.
-I'm also slogging through [*Osman's Dream*][gr-osman], which is a *very* thorough history of the Ottoman Empire.
+Right now I'm reading [*The Hydrogen Sonata*][gr-hydrogen] on paper and [*Red Mars*][gr-red-mars] as an audiobook.
+
+I write the occasional book review [here](/reviews).
 
 ### Running
 
@@ -107,8 +109,7 @@ Lq2cRvYmPFFE
 [duolingo]: https://www.duolingo.com/profile/tangenttree
 [github]: https://github.com/aliddell
 [gr-hydrogen]: https://www.goodreads.com/book/show/13497991-the-hydrogen-sonata
-[gr-osman]: https://www.goodreads.com/book/show/361130.Osman_s_Dreams
-[gr-steel]: https://www.goodreads.com/book/show/15999018-on-the-steel-breeze
+[gr-red-mars]: https://www.goodreads.com/book/show/77507.Red_Mars
 [gscholar]: https://scholar.google.com/citations?hl=en&user=aOC9X6oAAAAJ
 [popos]: https://pop.system76.com/
 [serval]: https://system76.com/laptops/serval
