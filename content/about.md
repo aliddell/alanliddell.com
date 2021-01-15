@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2021-01-08
+date: 2021-01-14
 showShare: false
 ---
 
@@ -57,9 +57,8 @@ My 2021 goals are:
 - Reach 25000 XP in Chinese on [Duolingo][duolingo] ([Beeminder goal](https://www.beeminder.com/aliddell/hanyu)).
 - Post 52 or more posts to the [blog](/posts) ([Beeminder goal](https://www.beeminder.com/aliddell/write-or-die)).
 - Use a Raspberry Pi to power an autonomous robot that can avoid obstacles and perform [SLAM][slam] in an indoor environment.
-    - In so doing, become conversant in the methods and applications of [computer vision][computer-vision].
-    - Probably also develop a tool to consume and display sensor data coming in off the robot, if I can't find a FOSS alternative.
-        - Probably have to learn Qt to accomplish this...
+    - In so doing, become conversant (or expert) in the methods and applications of [computer vision][computer-vision].
+    - In so doing, become conversant (or expert) in [ROS][ros].
 
 There are some stretch goals, but I'm keeping them back.
 
@@ -112,5 +111,6 @@ Lq2cRvYmPFFE
 [gr-red-mars]: https://www.goodreads.com/book/show/77507.Red_Mars
 [gscholar]: https://scholar.google.com/citations?hl=en&user=aOC9X6oAAAAJ
 [popos]: https://pop.system76.com/
+[ros]: https://www.ros.org
 [serval]: https://system76.com/laptops/serval
 [slam]: https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping
