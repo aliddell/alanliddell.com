@@ -1,6 +1,8 @@
 ---
-title: "Binary Search Tree for a Streaming MAD"
-date: 2020-12-29T11:12:25-05:00
+title: "Binary Search Tree Streaming Medians 2"
+date: 2021-01-29
+tags: ["spike sorting"]
+categories: coding
 draft: true
 ---
 
@@ -68,5 +70,3 @@ class BST {
 
 };
 ```
-
-[MAD]: https://en.wikipedia.org/wiki/Median_absolute_deviation
