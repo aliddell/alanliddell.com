@@ -28,7 +28,7 @@ When my kids get older, maybe I'll play some more.
 ### Reading
 
 I mostly like to read science fiction.
-Right now I'm reading [*The Hydrogen Sonata*][gr-hydrogen] on paper and [*Red Mars*][gr-red-mars] as an audiobook.
+Right now I'm reading [*The Hydrogen Sonata*][gr-hydrogen] on paper and [*Green Mars*][gr-green-mars] as an audiobook.
 
 I write the occasional book review [here](/reviews).
 
@@ -108,7 +108,7 @@ Lq2cRvYmPFFE
 [duolingo]: https://www.duolingo.com/profile/tangenttree
 [github]: https://github.com/aliddell
 [gr-hydrogen]: https://www.goodreads.com/book/show/13497991-the-hydrogen-sonata
-[gr-red-mars]: https://www.goodreads.com/book/show/77507.Red_Mars
+[gr-green-mars]: https://www.goodreads.com/book/show/77505.Green_Mars
 [gscholar]: https://scholar.google.com/citations?hl=en&user=aOC9X6oAAAAJ
 [popos]: https://pop.system76.com/
 [ros]: https://www.ros.org
