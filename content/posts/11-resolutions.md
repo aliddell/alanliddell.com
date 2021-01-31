@@ -10,7 +10,7 @@ Some of them dovetail with those other, larger goals and could represent steppin
 
 2. Implement the Fast Fourier Transform.
 3. Complete the OpenCV course [Computer Vision I][cv1].
-4. Implement a neural network from scratch in Julia.
+4. Implement a convolutional neural network from scratch in Julia.
 5. Build a Raspberry Pi-powered baby monitor.
 6. Complete [Computer Vision II][cv2]
 7. Learn ROS.
