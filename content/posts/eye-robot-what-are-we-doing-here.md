@@ -1,6 +1,6 @@
 ---
 title: "Eye Robot 0: What Are We Doing Here?"
-date: 2021-02-12]
+date: 2021-02-12
 categories: "robot"
 tags: ["computer vision"]
 ---
