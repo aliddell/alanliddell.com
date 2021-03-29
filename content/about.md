@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2021-01-14
+date: 2021-03-28
 showShare: false
 ---
 
@@ -54,7 +54,6 @@ My 2021 goals are:
 
 - Run 730 miles ([Beeminder goal](https://www.beeminder.com/aliddell/auto-running)).
 (See the [running page](/running) for a log.)
-- Reach 25000 XP in Chinese on [Duolingo][duolingo] ([Beeminder goal](https://www.beeminder.com/aliddell/hanyu)).
 - Post 52 or more posts to the [blog](/posts) ([Beeminder goal](https://www.beeminder.com/aliddell/write-or-die)).
 - Use a Raspberry Pi to power an autonomous robot that can avoid obstacles and perform [SLAM][slam] in an indoor environment.
     - In so doing, become conversant (or expert) in the methods and applications of [computer vision][computer-vision].
