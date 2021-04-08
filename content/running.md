@@ -1,15 +1,14 @@
 ---
 title: "Running"
-date: 2021-01-05
+date: 2021-04-08
 categories: running
 ---
 
 ## Training
 
-I have a Julia script to generate a (somewhat naïve) training program for the year.
+I have a Julia script to generate a (somewhat naïve) training program for (the rest of) the year.
 It's a mess and the comments are probably inaccurate.
-I'll clean it up soon.
-I'll probably also rewrite in Python because I can't quit Python.
+I'll clean it up eventually.
 
 ```julia
 function makemiles()
@@ -22,9 +21,9 @@ function makemiles()
     sun = [0 0 0 0 0 0 1]
 
     miles = zeros(52, 7)
-    miles[1, :] = mon + wed + fri
-    miles[2, :] = mon + wed + fri + sat
-    miles[3, :] = mon + wed + fri + 2sat
+    miles[15, :] = mon + wed + fri
+    miles[16, :] = mon + wed + fri + sat
+    miles[17, :] = mon + wed + fri + 2sat
 
     "Protocol: go up 2 more miles at 1/2 mile/week, then pull everything up by a half mile a week"
     "Recovery run is 1 mile less than normal runs"
@@ -32,7 +31,7 @@ function makemiles()
 
     "Basically we want to get Saturday to 2sum(week[[1 3 5]] / 3)"
     hold = 0
-    for k in 4:52
+    for k in 18:52
         miles[k, :] .= miles[k - 1, :]
 
         week = miles[k, :]
@@ -72,7 +71,10 @@ end
 ## Log
 
 This is a log of all the running I've done this year.
-One of my [goals](/about/#my-goals) is to run 730 miles this year and I mean to log each and every one of them.
+One of my [goals](/about/#my-goals) is to run ~~730~~ 435 miles this year and I mean to log each and every one of them.
+I gather all my data using my Garmin Forerunner 35.
+My Garmin Connect profile is [here][gc-profile].
+Add me if you want to keep up!
 
 ### Description
 
@@ -91,4 +93,9 @@ One of my [goals](/about/#my-goals) is to run 730 miles this year and I mean to 
 
 |    Date/Time     | Distance | Running Time | Pace  | Cumulative Distance | Weather                           | Disposition |
 |:----------------:|:--------:|:------------:|-------|---------------------|-----------------------------------|-------------|
-| 2021-01-01 14:40 | 1.00     | 10:07        | 0.099 | 1.00                | Chilly (32°), light precipitation | OK          |
+| 2021-01-01 14:40 | 1.00     | 10:07        | 10:07 | 1.00                | Chilly (32°), light precipitation | OK          |
+| 02021-04-05 19:44| 2.02     | 35:38        | 17:37 | 3.02                | Warm (72°)                        | Relaxed     |
+| 02021-04-06 19:44| 2.09     | 35:52        | 17:10 | 5.11                | Warm (70°)                        | Relaxed     |
+| 02021-04-07 19:44| 2.01     | 35:08        | 17:31 | 7.12                | Warm (77°)                        | Relaxed     |
+
+[gc-profile]: https://connect.garmin.com/modern/profile/6c222f05-ac98-4ead-be9c-781ed50dce85

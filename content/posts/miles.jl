@@ -8,9 +8,9 @@ function makemiles()
     sun = [0 0 0 0 0 0 1]
 
     miles = zeros(52, 7)
-    miles[1, :] = mon + wed + fri
-    miles[2, :] = mon + wed + fri + sat
-    miles[3, :] = mon + wed + fri + 2sat
+    miles[15, :] = mon + wed + fri
+    miles[16, :] = mon + wed + fri + sat
+    miles[17, :] = mon + wed + fri + 2sat
 
     "Protocol: go up 2 more miles at 1/2 mile/week, then pull everything up by a half mile a week"
     "Recovery run is 1 mile less than normal runs"
@@ -18,7 +18,7 @@ function makemiles()
 
     "Basically we want to get Saturday to 2sum(week[[1 3 5]] / 3)"
     hold = 0
-    for k in 4:52
+    for k in 18:52
         miles[k, :] .= miles[k - 1, :]
 
         week = miles[k, :]

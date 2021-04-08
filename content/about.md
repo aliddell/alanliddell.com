@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2021-03-28
+date: 2021-04-08
 showShare: false
 ---
 
@@ -14,7 +14,7 @@ I have a wife and two boys, and a neutral evil cat (but I repeat myself).
 ### Tech
 
 I like Linux and FreeBSD.
-My daily driver is a [System76 Serval WS][serval], which, aside from some hiccups involving the NVIDIA GPU (mostly on Fedora, but I've since reverted to System76's [Pop!\_OS][popos] and had no issues), has been an absolute pleasure to use.
+My daily driver is a [System76 Serval WS][serval], which, aside from some hiccups involving the NVIDIA GPU (mostly on Fedora, but I've since reverted to System76's [Pop!\_OS][popos] and had no issues), and the camera hardware, has been an absolute pleasure to use.
 
 ### Music
 
@@ -28,9 +28,17 @@ When my kids get older, maybe I'll play some more.
 ### Reading
 
 I mostly like to read science fiction.
-Right now I'm reading [*The Hydrogen Sonata*][gr-hydrogen] on paper and [*Green Mars*][gr-green-mars] as an audiobook.
+Right now I'm (re-)reading [*Speaker for the Dead*][gr-speaker] as an audiobook.
 
 I write the occasional book review [here](/reviews).
+
+### Chess
+
+I play a lot of chess.
+It's probably the one thing I do most on my phone.
+I have an account on [lichess.org](https://lichess.org/@/corvusossifragus) and one on [chess.com](https://www.chess.com/member/unixbeard941).
+For some reason, my Elo ratings are much different between sites.
+You should add me and challenge me to a game!
 
 ### Running
 
@@ -39,8 +47,8 @@ Here's me running a 5K last January, just before the pandemic:
 
 ![New Year 2020 5K: I'm in the brown shirt and shorts with the #475 bib.](/images/ny5k.jpg)
 
-I quite enjoy racing, even if my times are about average for my age group.
-I'd registered for a few more races this past spring, but they were all cancelled (unfortunately, but obviously the correct thing to do).
+I quite enjoy racing, even if my times are only about average for my age group.
+I'd registered for a few more races in spring 2020, but they were all cancelled (unfortunately, but obviously the correct thing to do).
 With no races, I lost the motivation to run and have only done it sporadically since.
 The hope is that by mid-fall things will be back to normal, so, inshallah, my next race will be a turkey trot.
 
@@ -50,11 +58,12 @@ I have a tendency to go too hard in my training and end up hurting myself, so in
 
 ## My goals
 
-My 2021 goals are:
+My 2021 goals are (modified from their original values after a reality check):
 
-- Run 730 miles ([Beeminder goal](https://www.beeminder.com/aliddell/auto-running)).
+- Run ~~730~~ 435 miles ([Beeminder goal](https://www.beeminder.com/aliddell/auto-running)).
 (See the [running page](/running) for a log.)
-- Post 52 or more posts to the [blog](/posts) ([Beeminder goal](https://www.beeminder.com/aliddell/write-or-die)).
+- Reach ~~25000~~ 30000 XP in Chinese on [Duolingo][duolingo] ([Beeminder goal](https://www.beeminder.com/aliddell/hanyu)).
+- Post ~~52~~ 40 or more posts to the [blog](/posts) ([Beeminder goal](https://www.beeminder.com/aliddell/write-or-die)).
 - Use a Raspberry Pi to power an autonomous robot that can avoid obstacles and perform [SLAM][slam] in an indoor environment.
     - In so doing, become conversant (or expert) in the methods and applications of [computer vision][computer-vision].
     - In so doing, become conversant (or expert) in [ROS][ros].
@@ -106,8 +115,7 @@ Lq2cRvYmPFFE
 [computer-vision]: https://en.wikipedia.org/wiki/Computer_vision
 [duolingo]: https://www.duolingo.com/profile/tangenttree
 [github]: https://github.com/aliddell
-[gr-hydrogen]: https://www.goodreads.com/book/show/13497991-the-hydrogen-sonata
-[gr-green-mars]: https://www.goodreads.com/book/show/77505.Green_Mars
+[gr-speaker]: https://www.goodreads.com/book/show/7967.Speaker_for_the_Dead
 [gscholar]: https://scholar.google.com/citations?hl=en&user=aOC9X6oAAAAJ
 [popos]: https://pop.system76.com/
 [ros]: https://www.ros.org
