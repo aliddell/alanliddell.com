@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2021-04-08
+date: 2021-04-19
 showShare: false
 ---
 
@@ -28,7 +28,7 @@ When my kids get older, maybe I'll play some more.
 ### Reading
 
 I mostly like to read science fiction.
-Right now I'm (re-)reading [*Speaker for the Dead*][gr-speaker] as an audiobook.
+Right now I'm reading [*Speaker for the Dead*][gr-green-mars], sometimes on paper and sometimes as an audiobook.
 
 I write the occasional book review [here](/reviews).
 
@@ -115,7 +115,7 @@ Lq2cRvYmPFFE
 [computer-vision]: https://en.wikipedia.org/wiki/Computer_vision
 [duolingo]: https://www.duolingo.com/profile/tangenttree
 [github]: https://github.com/aliddell
-[gr-speaker]: https://www.goodreads.com/book/show/7967.Speaker_for_the_Dead
+[gr-green-mars]: https://www.goodreads.com/book/show/77505.Green_Mars
 [gscholar]: https://scholar.google.com/citations?hl=en&user=aOC9X6oAAAAJ
 [popos]: https://pop.system76.com/
 [ros]: https://www.ros.org

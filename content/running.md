@@ -97,5 +97,6 @@ Add me if you want to keep up!
 | 02021-04-05 19:44| 2.02     | 35:38        | 17:37 | 3.02                | Warm (72°)                        | Relaxed     |
 | 02021-04-06 19:44| 2.09     | 35:52        | 17:10 | 5.11                | Warm (70°)                        | Relaxed     |
 | 02021-04-07 19:44| 2.01     | 35:08        | 17:31 | 7.12                | Warm (77°)                        | Relaxed     |
+| 02021-04-19 19:44| 1.68     | 24:27        | 20:15 | 8.8                 | Cool (55°)                        | Motivated   |
 
 [gc-profile]: https://connect.garmin.com/modern/profile/6c222f05-ac98-4ead-be9c-781ed50dce85
