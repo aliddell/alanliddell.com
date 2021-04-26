@@ -1,20 +1,29 @@
 ---
 title: "About"
-date: 2021-04-19
+date: 2021-04-26
 showShare: false
 ---
 
 My name is Alan and this is my personal site.
 I do [software][github] for a living.
-My background is in [computational mathematics][gscholar], but I'm no longer active in research.
+My background is in [computational mathematics][gscholar], but I'm not especially active in research.
 I have a wife and two boys, and a neutral evil cat (but I repeat myself).
 
 ## My interests
 
+### Mathematics
+
+My training, along with most of my short list of publications, is in numerical algebraic geometry.
+I find classical algebraic geometry to be beautiful but almost completely opaque.
+My interests have always ~~lay (lain? lie? lien?)~~ been on the computational side, so I emphasize the *numerical* part.
+Since I never properly learned Fourier analysis, I want to take a deep dive through approximation theory with Nick Trefethen's [*Approximation Theory and Approximation Practice*][atap].
+Trefethen uses [Chebfun][chebfun] for the examples in his book, but I don't have a Matlab license anymore, so I'll try to use [ApproxFun][approxfun].
+
 ### Tech
 
-I like Linux and FreeBSD.
-My daily driver is a [System76 Serval WS][serval], which, aside from some hiccups involving the NVIDIA GPU (mostly on Fedora, but I've since reverted to System76's [Pop!\_OS][popos] and had no issues), and the camera hardware, has been an absolute pleasure to use.
+I like Linux.
+My personal daily driver is a [System76 Serval WS][serval], which, aside from some hiccups involving the NVIDIA GPU (mostly on Fedora, but I've since reverted to System76's [Pop!\_OS][popos] and had no issues), and the camera hardware, has been an absolute pleasure to use.
+At work I use Ubuntu 18.04 on an [Origin](https://www.originpc.com/) which has the same mobo as the Serval, and that's been pretty nice to work with too.
 
 ### Music
 
@@ -28,9 +37,11 @@ When my kids get older, maybe I'll play some more.
 ### Reading
 
 I mostly like to read science fiction.
-Right now I'm reading [*Speaker for the Dead*][gr-green-mars], sometimes on paper and sometimes as an audiobook.
+Right now I'm reading [*Blue Mars*][gr-blue-mars] in audiobook form.
 
 I write the occasional book review [here](/reviews).
+I put off writing a review for *Red Mars* and took a long time to read *Green Mars*, but I'm plowing through *Blue Mars*.
+I really don't want to let it all go unreviewed, so my next review will be of the entire trilogy.
 
 ### Chess
 
@@ -110,12 +121,15 @@ Lq2cRvYmPFFE
 
 ```
 
+[approxfun]: https://juliaapproximation.github.io/ApproxFun.jl/latest/
+[atap]: http://www.chebfun.org/ATAP/
 [blog]: /posts
+[chebfun]: http://www.chebfun.org/
 [clarity]: https://github.com/chipzoller/hugo-clarity
 [computer-vision]: https://en.wikipedia.org/wiki/Computer_vision
 [duolingo]: https://www.duolingo.com/profile/tangenttree
 [github]: https://github.com/aliddell
-[gr-green-mars]: https://www.goodreads.com/book/show/77505.Green_Mars
+[gr-blue-mars]: https://www.goodreads.com/book/show/77504.Blue_Mars
 [gscholar]: https://scholar.google.com/citations?hl=en&user=aOC9X6oAAAAJ
 [popos]: https://pop.system76.com/
 [ros]: https://www.ros.org
