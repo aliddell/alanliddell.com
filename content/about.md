@@ -16,7 +16,7 @@ I have a wife and two boys, and a neutral evil cat (but I repeat myself).
 My training, along with most of my short list of publications, is in numerical algebraic geometry.
 I find classical algebraic geometry to be beautiful but almost completely opaque.
 My interests have always ~~lay (lain? lie? lien?)~~ been on the computational side, so I emphasize the *numerical* part.
-I've just begun to take a deep dive through approximation theory with Nick Trefethen's [*Approximation Theory and Approximation Practice*][atap].
+I've just begun to take a closer look at approximation theory with Trefethen's [*Approximation Theory and Approximation Practice*][atap] alongside Rivlin's [*An Introduction to the Approximation of Functions*][rivlin].
 Trefethen uses [Chebfun][chebfun] for the examples in his book, but I don't have a Matlab license anymore, so I'm trying to use [ApproxFun][approxfun].
 
 ### Tech
@@ -132,6 +132,7 @@ Lq2cRvYmPFFE
 [gr-blue-mars]: https://www.goodreads.com/book/show/77504.Blue_Mars
 [gscholar]: https://scholar.google.com/citations?hl=en&user=aOC9X6oAAAAJ
 [popos]: https://pop.system76.com/
+[rivlin]: https://store.doverpublications.com/0486640698.html
 [ros]: https://www.ros.org
 [serval]: https://system76.com/laptops/serval
 [slam]: https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping
