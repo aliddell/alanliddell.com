@@ -99,6 +99,7 @@ Add me if you want to keep up!
 | 02021-04-07 19:44| 2.01     | 35:08        | 17:31 | 7.12                | Warm (77°)                        | Relaxed     |
 | 02021-04-19 19:44| 1.68     | 24:27        | 20:15 | 8.8                 | Cool (55°)                        | Motivated   |
 | 02021-04-23 16:47| 1.01     | 9:53         | 9:48  | 9.81                | Cool (57°)                        | Energized   |
-| 02021-04-26 19:37| 1.57     | 24:27        | 12:45 | 11.38               | Pleasant (66°), clear             | Motivated   |
+| 02021-04-26 07:37| 1.57     | 24:27        | 12:45 | 11.38               | Pleasant (66°), clear             | Motivated   |
+| 02021-04-28 07:05| 1.68     | 20:04        | 11:57 | 13.06               | Pleasant (70°), cloudy            | Motivated   |
 
 [gc-profile]: https://connect.garmin.com/modern/profile/6c222f05-ac98-4ead-be9c-781ed50dce85
