@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2021-04-26
+date: 2021-04-27
 showShare: false
 ---
 
@@ -16,8 +16,8 @@ I have a wife and two boys, and a neutral evil cat (but I repeat myself).
 My training, along with most of my short list of publications, is in numerical algebraic geometry.
 I find classical algebraic geometry to be beautiful but almost completely opaque.
 My interests have always ~~lay (lain? lie? lien?)~~ been on the computational side, so I emphasize the *numerical* part.
-Since I never properly learned Fourier analysis, I want to take a deep dive through approximation theory with Nick Trefethen's [*Approximation Theory and Approximation Practice*][atap].
-Trefethen uses [Chebfun][chebfun] for the examples in his book, but I don't have a Matlab license anymore, so I'll try to use [ApproxFun][approxfun].
+I've just begun to take a deep dive through approximation theory with Nick Trefethen's [*Approximation Theory and Approximation Practice*][atap].
+Trefethen uses [Chebfun][chebfun] for the examples in his book, but I don't have a Matlab license anymore, so I'm trying to use [ApproxFun][approxfun].
 
 ### Tech
 
