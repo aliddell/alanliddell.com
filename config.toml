@@ -14,19 +14,6 @@ series = "series"
 [params]
 author = "Alan Liddell"
 enableMathNotation = true
-introDescription = "Erstwhile mathematician, software guy, robotics neophyte, Linux enthusiast, family man."
+introDescription = "I do math."
 codeLineNumbers = true
 since = 2020
-
-## old nix theme options
-# Name = "Alan Liddell"
-# HeaderUsername = "alan"
-# HeaderHostname = "just-testing"
-# About = "Erstwhile mathematician, robotics neophyte, Linux enthusiast, family man."
-# ProfilePicture = "https://avatars1.githubusercontent.com/u/844464?s=460&u=708fec7415e597817b2233c8938ed344ab6a2981&v=4"
-# GnuPGFingerprint = "3309F2A504F9B1E31CECA26F2AF79E8CEB07515D"
-# GithubID = "aliddell"
-# GitlabID = "aliddell"
-# LinkedInID = "alan-liddell"
-# TelegramID = "aliddell"
-# Email = "epiphyte2@protonmail.com"
