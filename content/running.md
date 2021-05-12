@@ -1,72 +1,97 @@
 ---
 title: "Running"
-date: 2021-04-08
+date: 2021-05-11
 categories: running
 ---
 
 ## Training
 
-I have a Julia script to generate a (somewhat naïve) training program for (the rest of) the year.
-It's a mess and the comments are probably inaccurate.
-I'll clean it up eventually.
+I have a Julia script to generate a (somewhat naïve) training program for a year.
 
 ```julia
+"""
+The training protocol is based around the (long) Saturday run.
+The cycle begins by increasing the Saturday run by 2 miles from the previous equilibrium at a
+rate of 0.5 miles/week, for a total of 4 weeks.
+Then Monday is brought up a mile the next week, then Friday the following week,
+then Sunday comes up a half mile, then Wednesday comes up a mile.
+At this point, eight weeks have passed, and the MWF runs are each half the
+distance of the Saturday run, while the Sunday run is half the distance of the MWF runs.
+
+For example, if starting at a schedule of
+
+Sun: 0.5, Mon: 1, Wed: 1, Fri: 1, Sat: 2
+
+the next 8 weeks look like:
+
+Sun: 0.5, Mon: 1, Wed: 1, Fri: 1, Sat: 2.5
+Sun: 0.5, Mon: 1, Wed: 1, Fri: 1, Sat: 3
+Sun: 0.5, Mon: 1, Wed: 1, Fri: 1, Sat: 3.5
+Sun: 0.5, Mon: 1, Wed: 1, Fri: 1, Sat: 4
+Sun: 0.5, Mon: 2, Wed: 1, Fri: 1, Sat: 4
+Sun: 0.5, Mon: 2, Wed: 1, Fri: 2, Sat: 4
+Sun: 1, Mon: 2, Wed: 1, Fri: 2, Sat: 4
+Sun: 1, Mon: 2, Wed: 2, Fri: 2, Sat: 4
+
+You hold at this point for two weeks.
+
+Every 13 weeks, you take 80% of what you did the previous week,
+then round to the nearest half mile.
+This is to allow for a quarterly recovery.
+"""
 function makemiles()
     mon = [1 0 0 0 0 0 0]
-    tue = [0 1 0 0 0 0 0]
     wed = [0 0 1 0 0 0 0]
-    thu = [0 0 0 1 0 0 0]
     fri = [0 0 0 0 1 0 0]
     sat = [0 0 0 0 0 1 0]
     sun = [0 0 0 0 0 0 1]
 
     miles = zeros(52, 7)
-    miles[15, :] = mon + wed + fri
-    miles[16, :] = mon + wed + fri + sat
-    miles[17, :] = mon + wed + fri + 2sat
+    miles[1, :] = 0.5sun + mon + wed + fri + 2sat
 
-    "Protocol: go up 2 more miles at 1/2 mile/week, then pull everything up by a half mile a week"
-    "Recovery run is 1 mile less than normal runs"
-    "Once everything is pulled up, hold for 2 more weeks, then pull back 2 miles on the long run"
+    for week = 2:52
 
-    "Basically we want to get Saturday to 2sum(week[[1 3 5]] / 3)"
-    hold = 0
-    for k in 18:52
-        miles[k, :] .= miles[k - 1, :]
+        cycle = (week - 1) % 10
 
-        week = miles[k, :]
-        if 0 < hold < 3
-            hold += 1
-            if hold == 3 hold = 0 end
-            continue
-        end
+        basevalue = miles[week - 1, :]
 
-        if week[1] == week[3] == week[5] # all running the same on MWF
-            if week[6] == 2week[1]  # Saturday is twice the MWF mileage
-                if week[7] < week[1] - 1
-                    week[7] += 0.5
-                    if week[7] == week[1] - 1
-                        hold = 1
-                    end
-                else
-                    week[3] += 0.5
-                end
-            else
-                week[6] += 0.5
+        if week % 13 ≠ 0 # a normal week
+            if cycle ∈ (1, 2, 3, 4)
+                miles[week, :] = basevalue + 0.5sat'
+            elseif cycle == 5
+                miles[week, :] = basevalue + mon'
+            elseif cycle == 6
+                miles[week, :] = basevalue + fri'
+            elseif cycle == 7
+                miles[week, :] = basevalue + 0.5sun'
+            elseif cycle == 8
+                miles[week, :] = basevalue + wed'
+            else cycle == 9 # cycle ∈ (9, 10) are holds
+                miles[week, :] = basevalue
             end
-        elseif week[3] > week[1]
-            week[1] = week[3]
-        else # week[1] > week[5]
-            week[5] = week[3]
-        end
+        else # quarterly recovery
+            recovery = 
+            # round to the nearest half mile
+            recovery = map(x -> begin
+                if abs(x - floor(x)) < abs(x - (floor(x) + 0.5)) # x is closer to floor(x)
+                    floor(x)
+                else
+                    floor(x) + 0.5
+                end
+            end, 0.8basevalue)
 
-        miles[k, :] .= week
-        k += 1
+            miles[week, :] = recovery
+        end
     end
 
     miles
 end
+
 ```
+
+As you can see, as of May 11, I haven't followed this program at all.
+But now that the script is cleaned up and the protocol is improved, I will!
+I'll let you know how it goes.
 
 ## Log
 
