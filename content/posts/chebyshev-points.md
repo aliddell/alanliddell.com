@@ -1,6 +1,6 @@
 ---
 title: "Chebyshev Points"
-date: 2021-05-15
+date: 2021-05-16
 categories: "Approximation Theory"
 draft: true
 ---
