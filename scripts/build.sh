@@ -6,6 +6,7 @@ if [ "${HUGO}" = "" ]; then
     exit 1
 fi
 
+# the directory containing the directory containing this script
 REPO_BASE="$(dirname $(dirname $(readlink -f $0)))"
 PUBLIC="${REPO_BASE}/public"
 
