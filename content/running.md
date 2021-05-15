@@ -126,5 +126,6 @@ Add me if you want to keep up!
 | 02021-04-23 16:47| 1.01     | 9:53         | 9:48  | 9.81                | Cool (57°)                        | Energized   |
 | 02021-04-26 07:37| 1.57     | 24:27        | 12:45 | 11.38               | Pleasant (66°), clear             | Motivated   |
 | 02021-04-28 07:05| 1.68     | 20:04        | 11:57 | 13.06               | Pleasant (70°), cloudy            | Motivated   |
+| 02021-05-13 06:06| 1.01     | 10:41        | 10:35 | 14.07               | Chilly (34°), clear               | Reluctant, some pain   |
 
 [gc-profile]: https://connect.garmin.com/modern/profile/6c222f05-ac98-4ead-be9c-781ed50dce85
