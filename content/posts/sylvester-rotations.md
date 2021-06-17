@@ -9,4 +9,8 @@ As it happens, I've come across a problem involving a special case of the Sylves
 Since $A$ and $B$ are rotation matrices, they share at least one eigenvalue (namely, 1), and so a solution, if it exists, is not unique.
 Does a unique solution exist in $SO(3)$?
 
+More to the point, what about rotations followed by translations?
+Take a point $x \in \mathbb{R}^3$.
+We can embed it into $\mathbb{R}^4$ by taking $\tilde{x} = (x_1, x_2, x_3, 1)$.
+
 [sylvester]: https://nhigham.com/2020/09/01/what-is-the-sylvester-equation/
