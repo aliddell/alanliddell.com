@@ -15,8 +15,10 @@ I need to sit down and get clarity on the relations here.
 
 Side note: It was only after a fair amount of time thinking this over that I discovered orthogonal Procrustes and Wahba.
 
+(Additional side note: [this](https://www.coursera.org/learn/spacecraft-dynamics-kinematics) looks like a neat course to take.)
+
 More to the point, what about rotations followed by translations?
 Take a point $x \in \mathbb{R}^3$.
-We can embed it into $\mathbb{R}^4$ by taking $\tilde{x} = (x_1, x_2, x_3, 1)$.
+Consider the $\tilde{x} = (x_1, x_2, x_3, 1) \in \mathbb{P}^3$.
 
 [sylvester]: https://nhigham.com/2020/09/01/what-is-the-sylvester-equation/
