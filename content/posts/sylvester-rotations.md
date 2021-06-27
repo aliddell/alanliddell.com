@@ -1,5 +1,5 @@
 ---
-title: "Sylvester equations with rotation matrices"
+title: "The Sylvester equation in $SO(3)$ and $SE(3)$"
 date: 2021-06-14T21:30:14-04:00
 draft: true
 ---
@@ -9,8 +9,11 @@ As it happens, I've come across a problem involving a special case of the Sylves
 Since $A$ and $B$ are rotation matrices, they share at least one eigenvalue (namely, 1), and so a solution, if it exists, is not unique.
 Does a unique solution exist in $SO(3)$?
 
-(The answer is probably not and you'll have to settle for a minimizer.
-I think we're looking at another permadraft...)
+The answer is probably not and you'll have to settle for a minimizer.
+The problem I'm looking at appears to be related to the orthogonal Procrustes problem, or Wahba's problem.
+I need to sit down and get clarity on the relations here.
+
+Side note: It was only after a fair amount of time thinking this over that I discovered orthogonal Procrustes and Wahba.
 
 More to the point, what about rotations followed by translations?
 Take a point $x \in \mathbb{R}^3$.
