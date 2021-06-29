@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2021-04-27
+date: 2021-06-28
 showShare: false
 ---
 
@@ -16,8 +16,6 @@ I have a wife and two boys, and a neutral evil cat (but I repeat myself).
 My training, along with most of my short list of publications, is in numerical algebraic geometry.
 I find classical algebraic geometry to be beautiful but almost completely opaque.
 My interests have always ~~lay (lain? lie? lien?)~~ been on the computational side, so I emphasize the *numerical* part.
-I've just begun to take a closer look at approximation theory with Trefethen's [*Approximation Theory and Approximation Practice*][atap] alongside Rivlin's [*An Introduction to the Approximation of Functions*][rivlin].
-Trefethen uses [Chebfun][chebfun] for the examples in his book, but I don't have a Matlab license anymore, so I'm trying to use [ApproxFun][approxfun].
 
 ### Tech
 
@@ -29,7 +27,7 @@ At work I use Ubuntu 18.04 on an [Origin](https://www.originpc.com/) which has t
 
 I usually listen to classical music or jazz at home.
 If I really want to concentrate I might put on something more [atmospheric](https://www.youtube.com/playlist?list=OLAK5uy_me_VUSOM-q8R9f7EIWEYtDAujpMKq8QgI), even [doomy](https://www.youtube.com/watch?v=7aDpCIDYDc8).
-I also like band like Ladytron and Massive Attack, and the absolute classics like Pink Floyd, Jethro Tull, or Rush, and I dig [stoner metal](https://www.youtube.com/channel/UCknVpWR6m2Ijzkqo-aPXs_g) as a style.
+I also like bands like Ladytron and Massive Attack, and the absolute classics like Pink Floyd, Jethro Tull, or Rush, and I dig [stoner metal](https://www.youtube.com/channel/UCknVpWR6m2Ijzkqo-aPXs_g) as a style.
 
 I don't get to play much anymore, but at one point I was the bassist for the 1st Marine Division band, and I still have many instruments, most of them stringed, now mostly gathering dust.
 When my kids get older, maybe I'll play some more.
