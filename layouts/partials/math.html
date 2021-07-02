@@ -1,7 +1,9 @@
 <script>
 MathJax = {
+  loader: {load: ['[tex]/ams']},
   tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    packages: {'[+]': ['ams']}
   }
 };
 </script>
